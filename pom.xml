@@ -3,16 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>Daily DevOps</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>Daily DevOps</name>
+	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Daily DevOps</name>
+		<name>Mithun Technologies</name>
+		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
 	<properties>
@@ -20,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<!-- <sonar.host.url>http://13.232.5.182:9000/</sonar.host.url>
+		<sonar.host.url>http://13.126.235.56:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password> -->
+		<sonar.password>password</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,20 +97,20 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Daily DevOps Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <name>Gas-Release</name>
+	      <url>http://13.213.65.58:8081/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Daily DevOps Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <name>Gas Snapshots</name>
+	      <url>http://13.213.65.58:8081/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>Daily DevOps</finalName>
+		<finalName>maven-web-application</finalName>
 		
 		<plugins>
 			<plugin>
@@ -129,7 +130,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/Daily DevOps</contextPath>
+						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -142,7 +143,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>Daily DevOps</wtpContextName>
+					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
