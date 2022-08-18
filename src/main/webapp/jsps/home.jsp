@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>Eswar Reddy Techs- Home Page</title>
 <link href="images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
@@ -40,7 +40,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		+91-8790913923
 		eshwardvp@gmail.com
 		<br>
-		<a href="mailto:eshwardvp@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:eshwardvp@gmail.com">Mail to Eswar Reddy Technologies</a>
 	</span>
 </div>
 <hr>
