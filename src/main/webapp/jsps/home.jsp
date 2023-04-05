@@ -37,7 +37,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		Eshwar DVP Techs, 
 		Kphb Main Road,
 		Hyderabad,
-		+91-8790913923
+		Contact: ********23
 		eshwardvp@gmail.com
 		<br>
 		<a href="mailto:eshwardvp@gmail.com">Mail to Eswar Reddy Technologies</a>
