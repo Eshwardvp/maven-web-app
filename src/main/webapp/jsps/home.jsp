@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Eswar Reddy K Techs </h1>
+<h1 align="center">Welcome to Eshwar DVP Techs </h1>
 <h1 align="center"> Eshwar DVP Technologies - One of the best Institute for DevOps with AWS</h1>
 <hr>
 <br>
