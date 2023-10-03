@@ -1,0 +1,62 @@
+declarative
+
+pipeline{
+    
+    
+    agent any
+    
+    tools{
+        
+        maven 'maven3.9.4'
+    }
+    
+    stages{
+        stage('checkout the code'){
+            
+            steps{
+                
+              git branch: 'main', credentialsId: 'Github_Cred', url: 'https://github.com/Eshwardvp/maven-web-app.git'  
+                
+            }
+        }
+        
+       stage('build the package'){
+           
+           steps{
+               
+               sh "mvn clean package"
+           }
+           
+           
+       }
+        
+        stage('sonarqube execution'){
+            
+            steps{
+                
+                
+                sh "mvn sonar:sonar"
+            }
+            
+            
+        }
+        
+        stage('upload nexus'){
+            
+            steps{
+                
+                sh "mvn clean deploy"
+                
+            }
+            
+        }
+        
+        
+        
+        
+        
+    }
+    
+  
+    
+}
