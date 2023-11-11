@@ -7,7 +7,6 @@ maven 'maven3.8.6'
 
 }
 
-//poll scm
 
 
 
