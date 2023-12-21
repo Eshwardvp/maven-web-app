@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Wallmart Release</name>
-	      <url>http://18.212.3.211:8081/repository/Whatsapp-UI-Release/</url>
+	      <url>http://54.144.249.63:8081/repository/Amazon-UI-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Wallamart Snapshots</name>
-	      <url>http://18.212.3.211:8081/repository/Whatsapp-UI-Snapshots/</url>
+	      <url>http://54.144.249.63:8081/repository/Amazon-UI-Snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
