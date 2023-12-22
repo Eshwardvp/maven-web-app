@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Wallamart Snapshots</name>
-	      <url>http://54.144.249.63:8081/repository/Amazon-UI-Snapshots/</url>
+	      <url>http://18.234.249.190:8081/repository/Whatsapp-UI-Snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
