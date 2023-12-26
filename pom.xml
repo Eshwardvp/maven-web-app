@@ -102,8 +102,8 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Wallamart Snapshots</name>
-	      <url>http://18.234.249.190:8081/repository/Whatsapp-UI-Snapshots/</url>
+	      <name>Whatsapp-UI-Snapshots</name>
+	      <url>http://3.83.238.73:8081/repository/Whatsapp-UI-Snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
