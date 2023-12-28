@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Whatsapp-UI-Snapshots</name>
-	      <url>http://3.83.238.73:8081/repository/Whatsapp-UI-Snapshots/</url>
+	      <url>http://100.26.50.182:8081/repository/Whatsapp-UI-Snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
