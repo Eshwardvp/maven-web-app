@@ -25,9 +25,8 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: eshwardvp/maven-web-app:3
-        tags: latest
-        registry: https:hub.docker.com
+        image: eshwardvp/maven-web-app
+        tags: 3
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
