@@ -27,6 +27,7 @@ jobs:
       with:
         image: eshwardvp/maven-web-app
         tags: 3
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
